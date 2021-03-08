@@ -1,3 +1,4 @@
+package Questions;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -23,7 +24,7 @@ public static String output = "\n\n";
 
 		try {
 			cases = Integer.parseInt(br.readLine().trim());
-			Solver solver = new Solver();
+			Questions.Solver solver = new Questions.Solver();
 			for (int i = 0; i < cases; i++) {
 				output += "Case #" + i + "\n";
 				String[] stringArray = br.readLine().split(" ");

@@ -1,3 +1,4 @@
+package Questions;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -57,7 +58,7 @@ public static String output = "\n\n";
 		final int cases;
 
 		try {
-			Solver solver = new Solver();
+			Questions.Solver solver = new Questions.Solver();
 			String str = "";
 			Map<Integer, List<Integer>> m = new HashMap<Integer, List<Integer>>();
 			while((str=br.readLine()) !=null && str.length() != 0 ) {
