@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.LinkedList;
+
 class LRUCache {
     private HashMap<Integer, Integer> hmap;
     private LinkedList<Integer> linkedList;
